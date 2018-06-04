@@ -1,0 +1,24 @@
+{
+  "name": "ezy-automation-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-art": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-native-web": "^0.7.3",
+    "react-scripts": "1.1.4"
+  },
+  "main": "src/electron-starter.js",
+  "homepage": "./",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^2.0.2"
+  }
+}
